@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="341.0" prefWidth="712.0" styleClass="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TicketCreation.MainController">
+    <children>
+        <Label fx:id="label" layoutX="109.0" layoutY="111.0" minHeight="16" minWidth="69" />
+      <Button layoutX="128.0" layoutY="224.0" mnemonicParsing="false" onAction="#testing" prefHeight="40.0" prefWidth="136.0" text="Send" />
+      <TextArea fx:id="Descp" layoutX="124.0" layoutY="120.0" prefHeight="80.0" prefWidth="464.0" />
+      <Label layoutX="122.0" layoutY="88.0" prefHeight="32.0" prefWidth="187.0" text="Descripccion" />
+      <Label layoutX="121.0" layoutY="31.0" text="Name or ID" />
+      <TextField fx:id="mytext" layoutX="121.0" layoutY="47.0" />
+      <Label layoutX="497.0" layoutY="31.0" text="Tecnologia Afectada" />
+      <ChoiceBox fx:id="tecAfect" layoutX="497.0" layoutY="47.0" prefWidth="150.0" />
+    </children>
+    <stylesheets>
+    <URL value="@Pinga.css" />
+  </stylesheets>
+</AnchorPane>
